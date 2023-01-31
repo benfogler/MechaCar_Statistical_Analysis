@@ -3,11 +3,13 @@
 ## Linear Regression to Predict MPG
 Linear Regression:
 
-image needed
+![lm](https://user-images.githubusercontent.com/114610539/215823638-b4b767d7-aeca-4e19-a0cf-cab12f2f72e8.png)
+
 
 Statistics:
 
-image needed
+![summary](https://user-images.githubusercontent.com/114610539/215823665-4cfd9654-10bd-4225-9dc4-56fc3811bf4e.png)
+
 
 
 As seen in the two snippets, we can find the p-value and r-squared value. This means our slope in our linear model is not zero.
@@ -23,11 +25,13 @@ Because our r-squared value is equivalent to 71%, we can confirm that this linea
 ## Summary Statistics on Suspension Coils
 Total_Summary:
 
-image here
+![total_summary](https://user-images.githubusercontent.com/114610539/215823729-47292761-205a-452a-8192-2bd314ef5d67.png)
+
 
 Lot_Summary:
 
-image here
+
+![lot_summary](https://user-images.githubusercontent.com/114610539/215823816-ebe55835-d401-4944-ab82-007277cc973d.png)
 
 
 In the Total_Summary dataframe you can see that the variance is ~62, which is below the must not exceed of 100. This means that the data from 
@@ -40,20 +44,20 @@ rejected and not placed into inventory.
 
 ###t-test across all lots:
 
-image here
-
+![t-test_across_all](https://user-images.githubusercontent.com/114610539/215823916-caa2fa24-59e9-4af1-b097-e36f92c23ffe.png)
 
 ###Lot 1 test
 
-image here
+![lot1_t-test](https://user-images.githubusercontent.com/114610539/215823961-177315c2-79bd-4038-afbf-f2824a95782a.png)
 
 ### Lot 2 test
 
-image here
+![lot2_t-test](https://user-images.githubusercontent.com/114610539/215824013-9659dcaf-3aed-44d7-b065-ed68d06044f8.png)
 
 ### Lot 3 Test
 
-image here
+![lot3_t-test](https://user-images.githubusercontent.com/114610539/215824058-a193bb5d-5112-42d6-a209-cd00efb5e764.png)
+
 
 ### Interpretation
 * In the first test we can see that the null hypothesis is true mean = 1500
